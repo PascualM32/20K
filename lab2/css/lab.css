@@ -1,5 +1,4 @@
 h1  {
-      color: Blue;
       font-size: 200%;
       font-family: "monospace";
 }
@@ -10,31 +9,31 @@ p {
   margin-left: 10px;
 }
 
-#content1 {
+#contenta {
 background-color: #cccccc;
     width: 500px;
     min-height: 300px;
     padding: 15px;
     margin: 10px;
-    border: solid 4px #3240B0;
+    border: solid 6px #3240B0;
     font-size: 20px;
 }
-#content2 {
+#contentb {
 background-color: #cccccc;
   width: 500px;
   min-height: 300px;
   padding: 15px;
   margin: 10px;
-  border: solid 2px #673499;
+  border: solid 6px #673499;
   font-size: 15px;
 }
-#content3 {
+#contentc {
 background-color: #cccccc;
     width: 500px;
     min-height: 300px;
     padding: 15px;
     margin: 10px;
-    border: solid 2px #F5590D;
+    border: solid 6px #F5590D;
     font-size: 15px;
 }
 Basic CSS format borrowed from Wes Modes
