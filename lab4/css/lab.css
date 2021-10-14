@@ -1,0 +1,16 @@
+body {
+  background-color: lightgreen;
+}
+#guacamole {
+  width: 300px;
+}
+#connect4 {
+  width: 300px;
+}
+ul.a {
+  list-style-type: circle;
+}
+dt {
+  font-weight: bolder;
+  font-size: 20px;
+}
