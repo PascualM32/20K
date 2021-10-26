@@ -1,0 +1,83 @@
+
+.lab7content{
+  width: 1000px;
+  border-radius: 3px;
+  background-color: #43B1E8;
+  font-family: monospace;
+  color: white;
+  margin: 5px;
+  position: relative;
+    top: -25em;
+    left: -20;
+    width: 50%;
+    margin: 350px;
+    text-align: center;
+}
+
+.outputlab7{
+  width: 1000px;
+  border-radius: 3px;
+  color: black;
+  margin: 5px;
+  position: relative;
+    top: -50em;
+    left: 0;
+    width: 50%;
+    margin: 350px;
+    text-align: center;
+    font-family: monospace;
+}
+
+.lab7jslink{
+  position: absolute;
+  top: 53%;
+  left: 83%;
+  transform: translate(-50%, -50%);
+  color: black;
+  font-weight: bold;
+  font-size: large;
+}
+
+#lab7comic{
+  visibility: hidden;
+}
+#ht{
+font-family: Impact;
+}
+
+#hsp{
+font-family: Impact;
+}
+
+body{
+  background-color: #081948;
+  position: static;
+}
+
+h1,h2{
+  margin: 10px;
+}
+
+h2{
+  font-family: Impact;
+}
+p{
+  margin: 10px;
+  font-family: monospace;
+}
+
+#lab7jslink{
+  margin: 10px;
+}
+
+/* The animation code */
+@keyframes example2 {
+  from {background-color:#43B1E8;}
+  to {background-color: #858585; }
+}
+/* The element to apply the animation to */
+.lab7content{
+  animation-name: example2;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
