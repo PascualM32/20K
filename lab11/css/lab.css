@@ -1,0 +1,44 @@
+h1 {text-align: center;
+    color: white;
+}
+
+#summary {
+  text-align: center;
+  margin-left: 200px;
+  margin-right: 200px;
+  border: solid black 1px;
+  background-color: white;
+  font-weight: bold;
+  font-size: 20px;
+  line-height:25px;
+  margin-bottom: 10px;
+}
+
+#challenge.sectionbox {
+  padding: 10px;
+}
+
+#challenge.special {
+  background-color: orange;
+  border: solid 1px black;
+}
+
+
+#problem.sectionbox {
+  padding: 10px;
+}
+
+#problem.special {
+  background-color: orange;
+  border: solid 1px black;
+}
+
+
+#results.sectionbox {
+  padding: 10px;
+}
+
+#results.special {
+  background-color: orange;
+  border: solid 1px black;
+}
