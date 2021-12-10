@@ -1,0 +1,67 @@
+h1 {text-align: center;
+    color: white;
+    font-family: monospace;
+}
+
+/* The animation code */
+@keyframes example1 {
+  from {background-color:green;}
+  to {background-color:#B8860B; }
+}
+/* The element to apply the animation to */
+body{
+  animation-name: example1;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+#sections {
+  text-align: center;
+  margin-left: 200px;
+  margin-right: 200px;
+  border: solid black 1px;
+  background-color: white;
+  font-weight: bold;
+  font-size: 20px;
+  line-height:25px;
+  margin-bottom: 10px;
+  font-family: monospace;
+}
+
+#teams {
+  text-align: center;
+  margin-left: 200px;
+  margin-right: 200px;
+  border: solid black 1px;
+  background-color: white;
+  font-weight: bold;
+  font-size: 20px;
+  line-height:25px;
+  margin-bottom: 10px;
+  font-family: monospace;
+}
+
+#challenge {
+  background-color: lightgrey;
+  padding: 10px;
+}
+
+
+#problem{
+  background-color:white;
+  padding: 10px;
+}
+
+#results {
+  background-color: lightgrey;
+  padding: 10px;
+}
+
+#output {
+  background-color: yellow;
+}
+
+#teams {
+  background-color: white;
+}
