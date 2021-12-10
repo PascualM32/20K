@@ -1,38 +1,66 @@
-<!DOCTYPE html>
 <html>
 <head>
-	<title>Pascual Martinez's Lab</title>
-	<link rel="stylesheet" type="text/css" href="../css/site.css">
+	<title>Pascual Martinez's Lab 13: Loops</title>
 	<link rel="stylesheet" type="text/css" href="css/lab.css">
+	<script
+      src="https://code.jquery.com/jquery-3.5.1.min.js"
+      integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0="
+      crossorigin="anonymous"></script>
+    <script type="text/javascript" src="js/lab.js" defer></script>
+		<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
 </head>
-<style>
-body {
- background-image: url('');
- background-repeat: no-repeat;
- background-attachment: scroll;
- background-size: 100%;
-}
-</style>
 <body>
-		<div class= lab6content>
-		<h1 id="ht">Lab : </h1>
-				<img id="" src="img/.jpg" style="width:150px;"/>
-				<p>Working with your partner...</p>
-			<h2>Challenge</h2>
-				<P>The challenge posed by this lab was...</p>
-			<h2>Problems</h2>
-				<p>The main problem that I encountered in this lab was...</p>
-			<h2>Results</h2>
-				<p>The results that I obtained for this lab are shown below...</p>
-			</div>
+	<div id = "sections">
+  	<h1>Lab 13: Loops</h1>
+  		<h2>Challenge</h2>
+    		<p>The challenge posed by lab 13 was to create a loop function in Javascript that
+					looped through numbers 1 to 200 as inputs and would output the words Fizz, Buzz, and
+					Boom, separately or in a mix depending on the attributes of the number.
+					For example, multiples of 3 outputted ‘fizz!’, multiples of 5 outputted ‘buzz!’,
+					and if a number was a multiple of both for example, it would output ‘fizzbuzz!’ </p>
 
-		<div class=outputlab>
-			<h1 id=" Script Output</h1>
-				<h2>Output:</h2>
-					<div id="labjslink">
-						<script src="js/lab.js"></script>
-					</div>
+  		<h2>Problems</h2>
+				<p>I encountered few problems with this lab because I felt as if I had a
+					solid understanding of the concept at hand, javascript loops. I only encountered some
+					syntax errors in my javascript code which I was able to debug easily by using the
+					console in chrome when viewing my file locally. Other than that, I also had to review my notes
+					from the lecture on loops and some of my notes from previous lectures to refresh my memory a bit. </p>
+
+  		<h2>Results</h2>
+				<p>The results that I obtained from this lab were successful. As you can see, I was able to get the basic function of the lab to work but was also able to complete the bonus task for the lab, printing my results neatly in a table and adding an additional factor to the function. Additionally, I also was able to change the max number we loop through and add form fields that allow you to change the factors we are looking for and the text that gets outputted. You can see these results on the uploaded webpage which is linked on the title page of the lab. </p>
 		</div>
 
+		<div id = "function"
+				<div id="input">
+          What number should we stop at? (Warning: Higher numbers slow down the program) <input type="number" min=0 max="1000" id="max"><br>
+          Which factors should print what?<br>
+            <table>
+                <tr>
+                  <th>Factor</th>
+                  <th>Prints what?</th>
+               </tr>
+                <tr>
+                  <td><input type="number" min=0 max="23" id="num0"></td>
+                  <td><input type="text" id="text0"></td>
+                </tr>
+                <tr>
+                  <td><input type="number" min=0 max="23" id="num1"></td>
+                  <td><input type="text" id="text1"></td>
+                </tr>
+                <tr>
+                  <td><input type="number" min=0 max="23" id="num2"></td>
+                  <td><input type="text" id="text2"></td>
+                </tr>
+                <tr>
+                  <td><input type="number" min=0 max="23" id="num3"></td>
+                  <td><input type="text" id="text3"></td>
+                </tr>
+            </table>
+            <button id="submit">Run</button>
+        </div>
+			<h2>Output</h2>
+			<div id = "output"></div>
+		</div>
+	</div>
 </body>
 </html>

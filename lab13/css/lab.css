@@ -1,0 +1,72 @@
+h1 {text-align: center;
+    font-family: monospace;
+}
+h2 {text-align: center;
+}
+
+/* The animation code */
+@keyframes example1 {
+  from {background-color:#FFA07A;}
+  to {background-color:#20B2AA; }
+}
+/* The element to apply the animation to */
+
+body{
+  animation-name: example1;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  padding: 20px;
+}
+
+
+#sections {
+  text-align: center;
+  margin-left: 100px;
+  margin-right: 100px;
+  border: solid black 1px;
+  background-color: white;
+  font-weight: bold;
+  font-size: 20px;
+  line-height:25px;
+  margin-bottom: 10px;
+  background-color: #D3D3D3;
+  font-family: monospace;
+}
+
+#function {
+  margin-left: 100px;
+  margin-right: 100px;
+  border: solid black 1px;
+  background-color: white;
+  font-weight: bold;
+  font-size: 20px;
+  line-height:25px;
+  margin-bottom: 10px;
+  background-color: #D3D3D3
+}
+
+
+div#input, div#output {
+  margin-left: 100px;
+  margin-right: 100px;
+  border: solid black 1px;
+  background-color: white;
+    padding: 20px;
+}
+
+#output p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+#output.cols {
+    -webkit-column-width: 200px;
+    -moz-column-width: 200px;
+    column-width: 200px;
+}
+
+.error {
+    color: red;
+    font-weight: bold;
+}
