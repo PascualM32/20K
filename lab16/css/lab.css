@@ -1,0 +1,38 @@
+h1 {text-align: center;
+    font-family: monospace;
+}
+h2 {text-align: center;
+}
+
+/* The animation code */
+@keyframes example1 {
+  from {background-color: #3CB371;}
+  to {background-color: #98FB98; }
+}
+/* The element to apply the animation to */
+
+body{
+  animation-name: example1;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  padding: 20px;
+}
+
+
+#sections {
+  background-color: #191970;
+  text-align: center;
+  margin-left: 200px;
+  margin-right: 200px;
+  border: solid black 1px;
+  font-size: 20px;
+  line-height:25px;
+  margin-bottom: 10px;
+  font-family: monospace;
+  color: white;
+}
+
+#button{
+  text-align: center;
+}
