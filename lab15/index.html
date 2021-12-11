@@ -1,38 +1,44 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Pascual Martinez's Lab</title>
-	<link rel="stylesheet" type="text/css" href="../css/site.css">
+	<title>Lab 15 - Ajax</title>
 	<link rel="stylesheet" type="text/css" href="css/lab.css">
+	<script
+      src="https://code.jquery.com/jquery-3.5.1.min.js"
+      integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0="
+      crossorigin="anonymous"></script>
+    <script type="text/javascript" src="js/lab.js" defer></script>
 </head>
-<style>
-body {
- background-image: url('');
- background-repeat: no-repeat;
- background-attachment: scroll;
- background-size: 100%;
-}
-</style>
 <body>
-		<div class= lab6content>
-		<h1 id="ht">Lab : </h1>
-				<img id="" src="img/.jpg" style="width:150px;"/>
-				<p>Working with your partner...</p>
-			<h2>Challenge</h2>
-				<P>The challenge posed by this lab was...</p>
-			<h2>Problems</h2>
-				<p>The main problem that I encountered in this lab was...</p>
-			<h2>Results</h2>
-				<p>The results that I obtained for this lab are shown below...</p>
-			</div>
+	<div id = "sections">
+		<h1>Lab 15: Ajax</h1>
+			<h2>Challenges</h2>
+				<p>The challenge posed by this lab was to create a webpage that had a
+					button with a click event that was linked to a chosen API endpoint with
+					jQuery AJAX and outputted the API’s data in a string. We were also, as always,
+					 tasked with creating a .html file and .css file to go along with the javascript,
+					 but since we have created these lab web pages several times by now, this part was
+					 easy and went smoothly. The challenge at hand was a bit confusing initially, but my partner
+					 and I were able to eventually figure it out. </p>
 
-		<div class=outputlab>
-			<h1 id=" Script Output</h1>
-				<h2>Output:</h2>
-					<div id="labjslink">
-						<script src="js/lab.js"></script>
-					</div>
+			<h2>Problems</h2>
+				<p>I didn’t encounter too many problems with Lab 15, and although it was a
+					bit confusing initially, once I figured out the instructions for the lab, I
+					was able to get the lab done smoothly. I also had some syntax errors in my html
+					and .js code, but I was able to identify and fix them relatively quickly by using the console in chrome. </p>
+
+			<h2>Results</h2>
+				<p>The results that I obtained for this lab were successful, as you can see
+					I chose the Kanye.rest API, which outputs and prints random Kanye quotes
+					to my webpage when you click the “Kanye West” button. </p>
 		</div>
 
-</body>
+			<h2 id="outhead">Output</h2>
+						<div id = "output"></div>
+						</div>
+					<div id = "button">
+						<button id="run">New Kanye West Quote</button>
+					</div>
+
+    </body>
 </html>

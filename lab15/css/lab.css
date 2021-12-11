@@ -1,0 +1,59 @@
+h1 {text-align: center;
+    font-family: monospace;
+}
+h2 {text-align: center;
+}
+
+/* The animation code */
+@keyframes example1 {
+  from {background-color:#9370DB;}
+  to {background-color:#D2B48C; }
+}
+/* The element to apply the animation to */
+
+body{
+  animation-name: example1;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  padding: 20px;
+}
+
+#outhead{
+  font-family: fantasy;
+}
+
+#sections {
+  background-color: #FFE4E1;
+  text-align: center;
+  margin-left: 200px;
+  margin-right: 200px;
+  border: solid black 1px;
+  font-weight: bold;
+  font-size: 20px;
+  line-height:25px;
+  margin-bottom: 10px;
+  font-family: monospace;
+}
+
+#output {
+  text-align: center;
+  font-family: fantasy;
+  margin-left: 300px;
+  margin-right: 300px;
+  border: solid black 1px;
+  background-color: #FFE4E1;
+  font-weight: bold;
+  font-size: 20px;
+  line-height:25px;
+  margin-bottom: 25px;
+  line-height: 120%;
+  padding-top: 30px;
+  padding-right: 50px;
+  padding-bottom: 30px;
+  padding-left: 50px;
+}
+
+#button{
+  text-align: center;
+}
