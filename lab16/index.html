@@ -1,38 +1,46 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<title>Pascual Martinez's Lab</title>
-	<link rel="stylesheet" type="text/css" href="../css/site.css">
-	<link rel="stylesheet" type="text/css" href="css/lab.css">
-</head>
-<style>
-body {
- background-image: url('');
- background-repeat: no-repeat;
- background-attachment: scroll;
- background-size: 100%;
-}
-</style>
-<body>
-		<div class= lab6content>
-		<h1 id="ht">Lab : </h1>
-				<img id="" src="img/.jpg" style="width:150px;"/>
-				<p>Working with your partner...</p>
-			<h2>Challenge</h2>
-				<P>The challenge posed by this lab was...</p>
-			<h2>Problems</h2>
-				<p>The main problem that I encountered in this lab was...</p>
-			<h2>Results</h2>
-				<p>The results that I obtained for this lab are shown below...</p>
-			</div>
+    <head>
+      <title>Pascual Martinez's Lab 16: JSON & APIs</title>
+      <link rel="stylesheet" type="text/css" href="css/lab.css">
+      <script
+        src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+        crossorigin="anonymous"></script>
+      <script src="js/lab.js" defer></script>
+    </head>
+		<body>
 
-		<div class=outputlab>
-			<h1 id=" Script Output</h1>
-				<h2>Output:</h2>
-					<div id="labjslink">
-						<script src="js/lab.js"></script>
-					</div>
-		</div>
+		    <div id="sections">
+		      <h1>Lab 16: JSON and APIs </h1>
 
-</body>
+		      <h2>Challenge</h2>
+		      <p>For lab 16, we were tasked with the challenge to process JSON from an API, eventually
+            creating a web page that ouputs XKCD comics from the API. We also had to read through the
+            XKCD API docs and then test the endpoint in our browsers. We were also tasked with creating
+            a Javascript file, using AJAX to retrieve our data, storing it in a variable named comicObj.
+            We then had to process our parts within our callback function, adding them to our webpage with the
+            appropriate tags.</p>
+
+		      <h2>Problems</h2>
+		       <p>Conceptually, Lab 16 took me some time to wrap my head around and I
+             struggled a bit with figuring out the code, having some syntax errors and
+              some errors with calling the API. Nonetheless, I was able to debug and
+              fix it using my console, by looking over the past lecture, and by spending a good amount
+              of time thoroughly going through my notes to see what was going on in my code. This lab was a bit hard for me,
+              it took me a lot of time to complete. Nonetheless, I was able to get the lab working after spending taking my sweet time
+              with it!</p>
+
+		      <h2>Results</h2>
+		      <p>I was able to attain successful results for this lab. As you can see, clicking
+          the button will print a comic from the XKCD comic API onto the webpage. I found this lab a bit frustrating and
+          therefore, did not complete the bonus task, but I was excited by the possibilities of using JSON, AJAX, and
+          APIs all in combination within JavaScript. It seems like there are a lot of possibilities when using the three altogether,
+          but I am not exactly sure how I would use them for more creative/artistic projects like playing with visuals from APIs and such.</p>
+
+		      <h3>Output</h3>
+		      <div id="output"></div>
+		      <button id="activate"> Do Press this Button! </button>
+        </div>
+		  </body>
 </html>
