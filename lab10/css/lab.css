@@ -40,10 +40,6 @@ p{
   font-family: monospace;
 }
 
-#lab9jslink{
-  margin: 10px;
-}
-
 /* The animation code */
 @keyframes example1 {
   from {background-color:#D7C917;}
