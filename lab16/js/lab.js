@@ -11,17 +11,17 @@
    console.log("click");
    //using the core $.ajax() method
    $.ajax( {
-     // the URL for the request
+     // determining API endpoint
      url: myLink,
      //whether this is a POST or GET request
      type: "GET",
-     // What do we do when the api call is successful
-     //   all the action goes in here
-     datatype: "JSON",
+     //data type expected in return
+     datatype: "json",
    })
+   // If the request to call the API data is successful
+   //this is the data returned
    .done(function(data) {
      console.log("Success:", data);
-     //$("#output").html(JSON.stringify(data));
      var comicObj = "https://xkcd.com/json.html" + data.url;
      var comicImg = data.img;
      var comicTitle = data.safe_title;
@@ -31,7 +31,7 @@
      var comicAlt = data.alt;
      $("#alt").html(comicAlt);
    })
-   //if the request happens to fail
+   //if the request fails
    .fail(function(request,error) {
      console.log(request, error);
      $("#output").html("Error");
