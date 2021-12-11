@@ -1,5 +1,21 @@
 body {
   background-color: lightgreen;
+  text-align: center;
+}
+/* The animation code */
+@keyframes example1 {
+  from {background-color:darkgreen;}
+  to {background-color:darkred; }
+}
+/* The element to apply the animation to */
+
+body{
+  animation-name: example1;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  padding: 20px;
+  color: white;
 }
 #guacamole {
   width: 300px;

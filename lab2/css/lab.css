@@ -1,39 +1,53 @@
 h1  {
       font-size: 200%;
       font-family: "monospace";
+      text-align: center;
 }
 
 p {
   font-family:"fantasy";
   text-indent: 25px;
   margin-left: 10px;
+  align-content: center;
 }
 
 #contenta {
-background-color: #cccccc;
-    width: 500px;
-    min-height: 300px;
-    padding: 15px;
-    margin: 10px;
-    border: solid 6px #3240B0;
+  background-color: black;
+    text-align: center;
+    border: solid 6px #F5590D;
     font-size: 20px;
+    padding: 50px;
 }
 #contentb {
-background-color: #cccccc;
-  width: 500px;
-  min-height: 300px;
-  padding: 15px;
-  margin: 10px;
+  background-color: black;
+  text-align: center;
   border: solid 6px #673499;
-  font-size: 15px;
+  font-size: 17px;
+  text-align: center;
+  padding: 50px;
 }
 #contentc {
-background-color: #cccccc;
-    width: 500px;
-    min-height: 300px;
-    padding: 15px;
-    margin: 10px;
+    background-color: black;
+    text-align: center;
     border: solid 6px #F5590D;
-    font-size: 15px;
+    font-size: 17px;
+    text-align: center;
+    padding: 50px;
+}
+/* The animation code */
+@keyframes example1 {
+  from {background-color: #673499;}
+  to {background-color: #F5590D; }
+}
+/* The element to apply the animation to */
+
+body{
+  animation-name: example1;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  padding: 20px;
+  color: white;
+  text-align: center;
 }
 Basic CSS format borrowed from Wes Modes
